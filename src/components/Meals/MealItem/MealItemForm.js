@@ -26,7 +26,7 @@ const submitHandler = event => {
     <form className={classes.form} onSubmit={submitHandler}>
       <Input
         ref={amountInputRef}
-        label="Amount"
+        label="Количина"
         input={{
           id: "amount_" + props.id,
           type: "number",
@@ -37,7 +37,7 @@ const submitHandler = event => {
         }}
       />
 
-      <button>+Add</button>
+      <button>+Додај</button>
       {!amountIsValid && <p>Please enter a valid amount (1-5).</p>}
     </form>
   );

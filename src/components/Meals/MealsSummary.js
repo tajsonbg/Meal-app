@@ -3,14 +3,13 @@ import classes from './MealsSummary.module.css';
 const MealsSummary = () => {
   return (
     <section className={classes.summary}>
-      <h2>Delicious Food, Delivered To You</h2>
+      <h2>Поручи најукуснију храну из улице гладних већ данас!</h2>
       <p>
-        Choose your favorite meal from our broad selection of available meals
-        and enjoy a delicious lunch or dinner at home.
+        Изабери свој најукуснији оброк уз који ћеш брзински са својим друштвом да банкротираш у рекордном времену и завшити на улици гладни ко керови.
       </p>
       <p>
-        All our meals are cooked with high-quality ingredients, just-in-time and
-        of course by experienced chefs!
+        Сваки оброк је пажљиво спремљен тако да останеш гладан, да се евентуално отрујеш и наравно, најбитније од свега, да банкротираш.
+        
       </p>
     </section>
   );

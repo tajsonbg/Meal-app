@@ -7,7 +7,7 @@ import classes from './Header.module.css';
 const Header = props => {
     return <Fragment>
         <header className={classes.header}>
-            <h1>ReactMeals</h1>
+            <h1>Паклена улица гладних</h1>
             <HeaderCartButton onClick={props.onShowCart}></HeaderCartButton>
         </header>
         <div className={classes['main-image']}>
